@@ -268,6 +268,12 @@ UBUNTU:BOOL=TRUE
 //LSB Distrib - codename tag
 UBUNTU_XENIAL:BOOL=TRUE
 
+//Value Computed by CMake
+World_BINARY_DIR:STATIC=/home/workspace/catkin_ws/build/World
+
+//Value Computed by CMake
+World_SOURCE_DIR:STATIC=/home/workspace/catkin_ws/src/World
+
 //Path to a file.
 _file_name:FILEPATH=/home/workspace/catkin_ws/src/slam_gmapping/gmapping/test/basic_localization_laser_different_beamcount.test
 
